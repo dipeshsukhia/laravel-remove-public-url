@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "DipeshSukhia\\RemovePublicUrl\\": "src/"
+            "DipeshSukhia\\RemovePublicUrl\\": "src"
         }
     },
     "minimum-stability": "dev",
