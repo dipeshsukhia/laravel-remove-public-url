@@ -9,6 +9,6 @@
             "email": "dipsh.sukhia@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "master",
     "require": {}
 }
