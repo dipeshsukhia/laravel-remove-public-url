@@ -1,0 +1,14 @@
+{
+    "name": "dipeshsukhia/laravel-remove-public-url",
+    "description": "remove public from laravel project and run project in root directory",
+    "type": "composer-plugin",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Dipesh Sukhia",
+            "email": "dipsh.sukhia@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
