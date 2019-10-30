@@ -25,7 +25,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "DipeshSukhia\\RemovePublicUrl\\ServiceProvider"
+                "DipeshSukhia\\RemovePublicUrl\\RemovePublicUrlServiceProvider"
             ]
         }
    }
