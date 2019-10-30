@@ -3,14 +3,30 @@
     "description": "remove public from laravel project and run project in root directory",
     "type": "composer-plugin",
     "license": "MIT",
+    "keywords": [
+        "remove public from url",
+        "tun laravel in root directory"
+    ],
     "authors": [
         {
             "name": "Dipesh Sukhia",
             "email": "dipsh.sukhia@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "DipeshSukhia\\RemovePublicUrl\\": "src"
+        }
+    },
     "minimum-stability": "dev",
     "require": {
-        "php": "^5.6"
-    }
+        "php": ">=5.6"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DipeshSukhia\\RemovePublicUrl\\ServiceProvider"
+            ]
+        }
+   }
 }
