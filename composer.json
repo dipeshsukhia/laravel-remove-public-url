@@ -21,5 +21,12 @@
     "minimum-stability": "dev",
     "require": {
          "php": "^7.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DipeshSukhia\\RemovePublicUrl\\RemovePublicUrlServiceProvider"
+            ]
+        }
     }
 }
