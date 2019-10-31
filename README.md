@@ -1,4 +1,4 @@
-# Very short description of the package
+# Description of the package
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/dipeshsukhia/laravel-remove-public-url.svg?style=flat-square)](https://packagist.org/packages/dipeshsukhia/laravel-remove-public-url)
 [![Build Status](https://img.shields.io/travis/dipeshsukhia/laravel-remove-public-url/master.svg?style=flat-square)](https://travis-ci.org/dipeshsukhia/laravel-remove-public-url)
