@@ -1,32 +1,59 @@
 {
     "name": "dipeshsukhia/laravel-remove-public-url",
     "description": "remove public from laravel project and run project in root directory",
-    "type": "composer-plugin",
-    "license": "MIT",
     "keywords": [
+        "laravel",
         "remove public from url",
-        "tun laravel in root directory"
+        "run laravel in root directory"
     ],
+    "homepage": "https://github.com/dipeshsukhia/laravel-remove-public-url",
+    "license": "MIT",
+    "type": "library",
     "authors": [
         {
             "name": "Dipesh Sukhia",
-            "email": "dipsh.sukhia@gmail.com"
+            "email": "dipsh.sukhia@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Bhavin Gajjar",
+            "email": "gajjarbhavin22@gmail.com",
+            "role": "Developer"
         }
     ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^7.0"
+    },
     "autoload": {
         "psr-4": {
-            "DipeshSukhia\\RemovePublicUrl\\": "src"
+            "Dipeshsukhia\\LaravelRemovePublicUrl\\": "src"
         }
     },
-    "minimum-stability": "dev",
-    "require": {
-         "php": "^7.2"
+    "autoload-dev": {
+        "psr-4": {
+            "Dipeshsukhia\\LaravelRemovePublicUrl\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
     },
     "extra": {
         "laravel": {
             "providers": [
-                "DipeshSukhia\\RemovePublicUrl\\RemovePublicUrlServiceProvider"
-            ]
+                "Dipeshsukhia\\LaravelRemovePublicUrl\\LaravelRemovePublicUrlServiceProvider"
+            ],
+            "aliases": {
+                "LaravelRemovePublicUrl": "Dipeshsukhia\\LaravelRemovePublicUrl\\LaravelRemovePublicUrlFacade"
+            }
         }
     }
 }

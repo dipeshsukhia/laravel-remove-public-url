@@ -1,6 +1,6 @@
 <?php
 
-namespace DipeshSukhia\RemovePublicUrl;
+namespace DipeshSukhia\LaravelRemovePublicUrl;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -24,8 +24,8 @@ class RemovePublicUrlServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/public' => public_path(),
-            __DIR__.'/base' => base_path(),
-        ], 'RemovePublicUrl');
+            __DIR__ . '/public' => public_path(),
+            __DIR__ . '/base' => base_path(),
+        ], 'LaravelRemovePublicUrl');
     }
 }
