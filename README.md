@@ -18,7 +18,7 @@ composer require dipeshsukhia/laravel-remove-public-url
 ## Usage
 
 ``` php
-// Usage description here
+php artisan vendor:publish --tag=LaravelRemovePublicUrl
 ```
 
 ### Testing
@@ -42,6 +42,7 @@ If you discover any security related issues, please email dipsh.sukhia@gmail.com
 ## Credits
 
 - [Dipesh Sukhia](https://github.com/dipeshsukhia)
+- [Bhavin Gajjar](https://github.com/bhavingajjar)
 - [All Contributors](../../contributors)
 
 ## License
