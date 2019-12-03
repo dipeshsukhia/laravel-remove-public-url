@@ -11,8 +11,7 @@ class LaravelRemovePublicUrlServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->publishes([
-            __DIR__ . '/public' => public_path(),
+        $this->publishes([            
             __DIR__ . '/base' => base_path(),
         ], 'LaravelRemovePublicUrl');
     }
