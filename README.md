@@ -5,8 +5,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/dipeshsukhia/laravel-remove-public-url.svg?style=flat-square)](https://scrutinizer-ci.com/g/dipeshsukhia/laravel-remove-public-url)
 [![Total Downloads](https://img.shields.io/packagist/dt/dipeshsukhia/laravel-remove-public-url.svg?style=flat-square)](https://packagist.org/packages/dipeshsukhia/laravel-remove-public-url)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
-
+This package is used to run laravel project in root directory. This package is specially created for that server where we have no access to point public directory.
 ## Installation
 
 You can install the package via composer:
