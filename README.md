@@ -5,7 +5,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/dipeshsukhia/laravel-remove-public-url.svg?style=flat-square)](https://scrutinizer-ci.com/g/dipeshsukhia/laravel-remove-public-url)
 [![Total Downloads](https://img.shields.io/packagist/dt/dipeshsukhia/laravel-remove-public-url.svg?style=flat-square)](https://packagist.org/packages/dipeshsukhia/laravel-remove-public-url)
 
-This package is used to run laravel project in root directory. This package is specially created for that server where we have no access to point public directory.
+This package is used to run laravel project from root directory. This package is specially created for that server where we have no access to point public directory.
 ## Installation
 
 You can install the package via composer:
