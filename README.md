@@ -11,7 +11,7 @@ This package is used to run laravel project from root directory. This package is
 You can install the package via composer:
 
 ```bash
-composer require dipeshsukhia/laravel-remove-public-url
+composer require dipeshsukhia/laravel-remove-public-url --dev
 ```
 
 ## Usage
