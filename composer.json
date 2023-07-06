@@ -1,10 +1,10 @@
 {
     "name": "dipeshsukhia/laravel-remove-public-url",
-    "description": "remove public from laravel project and run project in root directory",
+    "description": "Remove public from laravel project and run the project in the root directory",
     "keywords": [
         "laravel",
-        "remove public from url",
-        "run laravel in root directory"
+        "remove public from URL",
+        "run laravel in the root directory"
     ],
     "homepage": "https://github.com/dipeshsukhia/laravel-remove-public-url",
     "license": "MIT",
@@ -23,11 +23,11 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0|^8.0|^9.0"
+        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0|^8.0|^9.0|^10.0"
     },
     "require-dev": {
-        "orchestra/testbench": "3.8.*",
-        "phpunit/phpunit": "^4.8|^5.0|^6.0|^7.0"
+        "orchestra/testbench": "^8.0",
+        "phpunit/phpunit": "^4.8|^5.0|^6.0|^7.0|^8.0|^9.0|^10.0"
     },
     "autoload": {
         "psr-4": {
