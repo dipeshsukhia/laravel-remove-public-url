@@ -20,12 +20,6 @@ composer require dipeshsukhia/laravel-remove-public-url --dev
 php artisan vendor:publish --tag=LaravelRemovePublicUrl
 ```
 
-### Testing
-
-``` bash
-composer test
-```
-
 ### Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
